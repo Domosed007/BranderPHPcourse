@@ -10,6 +10,7 @@ function is_simpleNumber(int $num){
             return false;
         }
     }
+
     return true;
 }
 
