@@ -2,6 +2,8 @@
 //Написать функцию которая принимает число от 1 до 7 и
 // возвращает день недели Если число не входит в заданый диапазон то возвращает сообщение об ошибке
 
+require_once "functions.php";
+
 function day(int $num){
     switch(check($num)){
         case 1:
@@ -21,6 +23,21 @@ function day(int $num){
     }
 }
 
+function dayWeek(int $num){
+    if(!check($num)){
+        return;
+    }
+    $week=[1=>"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+    
+    foreach ($week as $i=>$day){
+        if($i==$num){
+            return $day;
+        }
+    }
+}
+
+echo(dayWeek(1));
+
 function check(int $num){
     if($num>7||$num<1){
         echo "Error! Data incorrect!";
@@ -29,4 +46,4 @@ function check(int $num){
     return true;
 }
 
-echo(day(1));
+//echo(day(1));
