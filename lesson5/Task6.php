@@ -22,4 +22,4 @@ function per(int $num1,int $num2){
     return $num2/$num1*100;
 }
 
-echo stringIdentity("qwert","Qwert");
+echo stringIdentity("qwert","Qwe rt");
