@@ -6,6 +6,8 @@
  в) список оценок по предметам(предметы выбирайте сами)
 */
 
+require_once "task3.php";
+
 //а
 $arrayStarWars=[
     "Скрытая угроза",
@@ -48,4 +50,6 @@ $balls=[
 по определенным критериям(критерии выбирайте сами)
 */
 
-var_dump(asort($balls));
+printArray($balls);
+asort($balls);
+printArray($balls);

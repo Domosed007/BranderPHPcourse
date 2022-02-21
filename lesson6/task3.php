@@ -18,4 +18,4 @@ function printArray(array $arr){
     }
 }
 
-printArray([0,[[1,1.01,1.02],1.1,1.2],2,3,4]);
+//printArray([0,[[1,1.01,1.02],1.1,1.2],2,3,4]);
