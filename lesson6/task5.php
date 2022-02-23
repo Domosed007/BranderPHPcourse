@@ -3,18 +3,20 @@
 Основывая на #4 задании написать ту же функцию но тепреь она работает рекурсивно
 */
 
+// С этой задачей 
+
 function find(array $arr,$someVar){
-    echo "Start function find()<br>";
+    $result=false;
+
     foreach($arr as $key=>$var){// циклом проходимся по массиву
         if(is_array($var)){// если итератор тоже массив, то рекурсивно вызывается функция find
-            echo "Start is_array<br>";
-            find($var,$someVar);
+            $result=find($var,$someVar);
         }
         elseif($var===$someVar){
-                return $key;
+                $result=$key."\n";
         }
     }
-    return false;
+    return $result;
 }
 
-var_dump(find(['a',['b',6,'e'],'c','b'],'c'));
+var_dump(find(['a',['b',6,'e'],'c','b'],6));
