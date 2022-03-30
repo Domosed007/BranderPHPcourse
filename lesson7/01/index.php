@@ -6,7 +6,7 @@ printDirContents($path);
 function printDirContents($path){
    $dir=opendir($path);
 
-while($name=readdir($dir)){
+while(($name=readdir($dir))!==false){
     if($name[0]=='.'){
         continue;
     }
@@ -14,11 +14,11 @@ while($name=readdir($dir)){
     $pathThisDir=$path."/$name";
 
     if(is_dir($pathThisDir)){
-        echo " d ".$name."\n";
+        echo "d ".$name."\n";
         printDirContents($pathThisDir);
     }
-    elseif(is_file($name)){
-        echo " f ".$name."\n";
+    else{
+        echo "f ".$name."\n";
     }
 }
 closedir($dir); 
