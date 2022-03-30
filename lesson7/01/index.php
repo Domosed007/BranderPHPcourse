@@ -18,7 +18,7 @@ while(($name=readdir($dir))!==false){
         printDirContents($pathThisDir);
     }
     else{
-        echo "f ".$name."\n";
+        echo "f ".$name."\t".fileperms($pathThisDir)."\t".filesize($pathThisDir)."\n";
     }
 }
 closedir($dir); 
