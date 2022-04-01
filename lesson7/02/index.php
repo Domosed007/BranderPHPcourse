@@ -3,15 +3,16 @@ $file=fopen('Data.csv','r');
 
 $students=[];
 
-if($file!==false){
-    for($i=0;($data=fgetcsv($file,1000,','))!==false;$i++){
-        $students[$i]=$data;
-    }
+if($file){
+    while(($data=fgetcsv($file,1000,','))!==false){
+            $students[$data[0]][]=[$data[1],$data[2]];
+    }    
 }
+else echo "ERROR! File not open!".PHP_EOL;
 
 fclose($file);
 
-//var_dump($students);
+var_dump($students);
 
 function writeFile(array $data, string $nameFile){
     $puth=getcwd()."/Data/$nameFile";
@@ -26,11 +27,4 @@ function writeFile(array $data, string $nameFile){
 
     fclose($file);
 }
-
-$arr=[
-    ['Иванов','С++',5],
-    ['Иванов','PHP',5],
-];
-
-writeFile($arr,'test.csv');
 ?>
