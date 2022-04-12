@@ -18,7 +18,7 @@
         </div>
         <div>
             <label for="phoneNumber">Phone number</label>
-            <input type="text" name="phoneNumber" id="phoneNumber" placeholder=<?php echo $_COOKIE['phoneNumber']?>>
+            <input type="text" name="phoneNumber" id="phoneNumber" value=<?php echo $_COOKIE['phoneNumber']?>>
         </div>
     </form>
 </body>
