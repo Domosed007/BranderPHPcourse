@@ -12,7 +12,7 @@ $season=htmlentities($_POST["season"]);
 try{
     $db = new PDO("mysql:host=$host;dbname=$database", $user, $password);
 
-    $db->exec("INSERT INTO products (NameProduct, Price, Season) VALUES ('$name','$price','$season')");
+    $db->exec("INSERT INTO products (NameProduct, Price, Season) VALUES ('$name',$price,'$season')");
 
     header('Location: index.php');
 }
