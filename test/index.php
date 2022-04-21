@@ -2,16 +2,18 @@
 
 class Person
 {
-    public $name='Sem',$age=18;
+    public $name,$age;
+
+    function __construct($name,$age){
+        $this->name=$name;
+        $this->age=$age;
+    }
 
     function displayInfo(){
-        echo "Name: $this->name\tAge: $this->age".PHP_EOL;
+        echo "Name\t$this->name\nAge\t$this->age".PHP_EOL;
     }
 }
 
-$tom=new Person();
-
-$tom->name='Tom';
-$tom->age=36;
-
+$tom=new Person('Tom',29);
 $tom->displayInfo();
+
