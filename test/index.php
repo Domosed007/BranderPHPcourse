@@ -2,18 +2,31 @@
 
 class Person
 {
-    public $name,$age;
+    public $name;
+    static $var='static';
 
-    function __construct($name,$age){
+    function __construct($name){
         $this->name=$name;
-        $this->age=$age;
     }
 
     function displayInfo(){
-        echo "Name\t$this->name\nAge\t$this->age".PHP_EOL;
+        echo "Name\t$this->name".PHP_EOL;
     }
 }
 
-$tom=new Person('Tom',29);
-$tom->displayInfo();
+class Employee extends Person{
+    public $company;
+    function __construct($name,$company)
+    {
+        parent::__construct($name);
+        $this->company=$company;
+    }
+    function displayInfo()
+    {
+        parent::displayInfo();
+        echo "\nCompany\t$this->company".PHP_EOL;
+    }
+}
 
+$tom=new Person('Tom','IBM');
+print_r(Person::$var);
