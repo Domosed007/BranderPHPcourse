@@ -1,32 +1,31 @@
 <?php
+class Person{
+    private $name;
 
-class Person
-{
-    public $name;
-    static $var='static';
+    static $count;
 
-    function __construct($name){
-        $this->name=$name;
-    }
-
-    function displayInfo(){
-        echo "Name\t$this->name".PHP_EOL;
-    }
-}
-
-class Employee extends Person{
-    public $company;
-    function __construct($name,$company)
+    function __construct($a)
     {
-        parent::__construct($name);
-        $this->company=$company;
+        $this->name=$a;
+        $this->count++;
     }
-    function displayInfo()
-    {
-        parent::displayInfo();
-        echo "\nCompany\t$this->company".PHP_EOL;
-    }
-}
 
-$tom=new Person('Tom','IBM');
-print_r(Person::$var);
+    final function print(){
+        echo "Name: $this->name<br>";
+        echo "Count: $this->count<br>";
+    }
+
+    function __destruct()
+    {
+        "Destructor";
+    }
+};
+
+$sem=new Person('Sem');
+$sem->print($sem);
+
+$ben=new Person('Ben');
+$ben->print($ben);
+
+$tom=new Person('Tom');
+$tom->print($tom);

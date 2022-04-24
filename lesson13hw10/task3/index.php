@@ -1,9 +1,9 @@
 <?php
 include_once 'calculator.php';
 
-$c=new Calculator(5,7);
-
-echo $c->getSum().'<br>';
-echo $c->getDif().'<br>';
-echo $c->getMult().'<br>';
-echo $c->getDiv().'<br>';
+echo Calculator::getSum(1,2).'<br>';
+echo Calculator::getDif(1,2).'<br>';
+echo Calculator::getMult(1,2).'<br>';
+echo Calculator::getDiv(1,2).'<br>';
+echo Calculator::remainderDiv(1,2).'<br>';
+echo Calculator::getMod(5);

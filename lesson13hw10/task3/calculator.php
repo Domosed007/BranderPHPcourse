@@ -1,27 +1,26 @@
 <?php
 class Calculator{
-    private $num1;
-    private $num2;
-
-    function __construct(float $n1,float $n2)
-    {
-        $this->num1=$n1;
-        $this->num2=$n2;
+    static function getSum(float $num1,float $num2):float{
+        return $num1+$num2;
     }
 
-    function getSum():float{
-        return $this->num1+$this->num2;
+    static function getDif(float $num1,float $num2):float{
+        return $num1-$num2;
     }
 
-    function getDif():float{
-        return $this->num1-$this->num2;
+    static function getMult(float $num1,float $num2):float{
+        return $num1*$num2;
     }
 
-    function getMult():float{
-        return $this->num1*$this->num2;
+    static function getDiv(float $num1,float $num2):float{
+        return $num1/$num2;
     }
 
-    function getDiv():float{
-        return $this->num1/$this->num2;
+    static function getMod($num):float{
+        if($num<0) return $num*(-1);
+        else return $num;
+    }
+    static function remainderDiv(float $num1,float $num2):float{
+        return $num1%$num2;
     }
 }
