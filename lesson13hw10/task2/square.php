@@ -14,10 +14,5 @@ class Square extends Quadrilateral{
 
     function getS():float{
         return $this->side*2;
-    }
-
-    function displayPS(){
-        echo "P:".$this->getP().'<br>';
-        echo 'S:'.$this->getS().'<br>';
-    }    
+    }   
 }

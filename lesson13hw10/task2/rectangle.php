@@ -16,10 +16,5 @@ class Rectangle extends Quadrilateral{
 
     function getS():float{
         return $this->side1*$this->side2;
-    }
-
-    function displayPS(){
-        echo "P:".$this->getP().'<br>';
-        echo 'S:'.$this->getS().'<br>';
-    }    
+    }  
 }

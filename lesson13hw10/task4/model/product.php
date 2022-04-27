@@ -15,6 +15,10 @@ class Product{
     }
 
     static function constructorArr(array $arr){
-        return new static ($arr['title'],new Price($arr['price']));
+        if(array_key_exists('title', $arr)&&array_key_exists('price', $arr)&&
+        gettype($arr['title'])==='string'&& gettype($arr['price'])==='integer'){
+            return new static ($arr['title'],new Price($arr['price']));
+        }
+        else echo 'Error: incorrect data';
     }
 }
