@@ -15,22 +15,3 @@ function findCity($letter){
         echo "Exception: ".$ex->getMessage();
     }
 }
-
-// class DB{
-//     private $db;
-
-//     function __construct($connect)
-//     {
-//         $this->db=$connect;
-//     }
-    
-//     function findAnswer($letter){
-//         $letter=strtoupper($letter);
-//         $result=$this->db->query("SELECT name FROM city WHERE name LIKE '$letter%' ORDER BY RAND() LIMIT 1;");
-//         echo $result->fetch()['name'];
-//     }
-// }
-
-// $play=new DB($connect);
-
-// $play->findAnswer('a');

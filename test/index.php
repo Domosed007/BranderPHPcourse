@@ -13,10 +13,10 @@
     </form>
     <?php
         $str=$_GET['text'];
-
-        $arr=$str;
-
-        setcookie('text',$arr);
+        $arr=unserialize($_COOKIE['text']);
+        $arr[]=$str;
+        print_r($arr);
+        setcookie('text',serialize($arr));        
     ?>
 </body>
 </html>

@@ -19,16 +19,23 @@
     <h1>Компьютер</h1>
     <?php
         include_once 'repository/db.php';
+        include_once 'model/history.php';
 
         $city=$_GET['city'];
-        
-        $letter=mb_substr($city,0,1);
-        
+
+        addHistory($city);
+
+        $letter=mb_substr($city,-1);
+
         $answer=findCity($letter);
-        
+
+        addHistory($answer);
+
         echo "<p>$answer</p><br>";
 
-        
+        echo '<h3>История</h3><br>';
+
+        showHistory();
     ?>
 </body>
 </html>

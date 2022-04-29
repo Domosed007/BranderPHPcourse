@@ -1,3 +1,6 @@
 <?php
+$names=['Alex','Sem','Ben'];
 $name='Alex';
-setcookie('name',$name);
+setcookie('name',serialize($names));
+
+header('Location: index.php');
