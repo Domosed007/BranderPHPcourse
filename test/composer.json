@@ -1,0 +1,15 @@
+{
+    "name": "alex/test",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr",
+            "email": "a.v.smirnov1992@gmail.com"
+        }
+    ],
+    "require": {}
+}
