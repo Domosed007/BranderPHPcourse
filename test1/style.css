@@ -1,0 +1,10 @@
+div{
+    width: 120px;
+    height: 120px;
+    border: 1px solid;
+    margin: 15px;
+}
+
+.c{
+    background-color: aqua;
+}

@@ -2,7 +2,7 @@
     "name": "alex/test",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

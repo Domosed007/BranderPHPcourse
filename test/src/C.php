@@ -1,4 +1,5 @@
 <?php
+namespace App;
 
 class C{
     private $var;
