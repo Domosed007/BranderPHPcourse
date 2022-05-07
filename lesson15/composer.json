@@ -1,5 +1,5 @@
 {
-    "name": "alex/test",
+    "name": "alex/lesson15",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
