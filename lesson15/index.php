@@ -2,18 +2,17 @@
 namespace App;
 use App\Product;
 use App\ProductInMemoryRepository;
+use App\ProductInMySQLRepository;
 
 require_once __DIR__.'/vendor/autoload.php';
+require_once __DIR__.'/db/conf.php';
 
-$p=new ProductInMemoryRepository();
-$p->addProduct(new Product(0,'strawberry',new Price(2500),'spring'));
-$p->addProduct(new Product(1,'apple',new Price(1500),'autumn'));
-$p->addProduct(new Product(2,'tomato',new Price(1000),'summer'));
+$p=new ProductInMySQLRepository($user,$password,$database,$table,$host);
 
 $p->printProducts();
 
-echo '==========================================<br>';
+echo '<br>';
 
-$p->deleteProduct(new Product(1,'apple',new Price(1500),'autumn'));
+$p->deleteProduct(new Product(5,'pinapple',new Price(4500),'summer'));
 
 $p->printProducts();
