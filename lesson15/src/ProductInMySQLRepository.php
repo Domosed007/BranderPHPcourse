@@ -52,11 +52,19 @@ class ProductInMySQLRepository implements ProductRepositoryInterface
 
     public function printProducts()
     {
+        echo "<table><tr><th>Id</th><th>Название продукта</th><th>Цена</th><th>Сезон</th></tr>";
+
         foreach($this->findAllProducts() as $product)
         {
-            print_r($product);
-            echo '<br>';
+            echo "<tr>";
+                echo "<td>".$product->getId()."</td>";
+                echo "<td>".$product->getName()."</td>";
+                echo "<td>".$product->getPrice()."</td>";
+                echo "<td>".$product->getSeason()."</td>";
+            echo "</tr>";
         }
+
+        echo "</table>";
     }
 
     public function updateProduct(Product $product): void
