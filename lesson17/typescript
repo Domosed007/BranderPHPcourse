@@ -117,4 +117,183 @@ touch: пропущен операнд, задающий файл
 ./task2: строка 6: Some: команда не найдена
 ]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2 file.txt 'Some text'
 ./task2: строка 6: $2: команда не найдена
-]0;alex@alex-Swift-SF316-51: 
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2 file.txt 'Some text'
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2 file.txt 'Some text'
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ git[K[K[Kcd ..
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ git add .
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ git commit -m "Lesson17 doneadd .[K
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ git add .[4Pcd ..[K[K[K[K[Kgit commir -[K[K[Kt 0[K-n[Km "Lesson17 done"
+[main 9a4cf82] Lesson17 done
+ 3 files changed, 135 insertions(+)
+ create mode 100755 lesson17/task1
+ create mode 100755 lesson17/task2
+ create mode 100644 lesson17/typescript
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ git push p[Korigin main
+Перечисление объектов: 7, готово.
+Подсчет объектов:  14% (1/7)Подсчет объектов:  28% (2/7)Подсчет объектов:  42% (3/7)Подсчет объектов:  57% (4/7)Подсчет объектов:  71% (5/7)Подсчет объектов:  85% (6/7)Подсчет объектов: 100% (7/7)Подсчет объектов: 100% (7/7), готово.
+При сжатии изменений используется до 8 потоков
+Сжатие объектов:  16% (1/6)Сжатие объектов:  33% (2/6)Сжатие объектов:  50% (3/6)Сжатие объектов:  66% (4/6)Сжатие объектов:  83% (5/6)Сжатие объектов: 100% (6/6)Сжатие объектов: 100% (6/6), готово.
+Запись объектов:  16% (1/6)Запись объектов:  33% (2/6)Запись объектов:  50% (3/6)Запись объектов:  66% (4/6)Запись объектов:  83% (5/6)Запись объектов: 100% (6/6)Запись объектов: 100% (6/6), 1.82 КиБ | 1.82 МиБ/с, готово.
+Всего 6 (изменения 1), повторно использовано 0 (изменения 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Domosed007/BranderPHPcourse.git
+   c71e643..9a4cf82  main -> main
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ св[K[Kcd ..
+]0;alex@alex-Swift-SF316-51: /var/www/html[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html[00m$ mkdir test[K[K[K[Ktest
+mkdir: невозможно создать каталог «test»: Отказано в доступе
+]0;alex@alex-Swift-SF316-51: /var/www/html[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html[00m$ sudo test[K[K[K[Kmkdir test
+[sudo] пароль для alex: 
+]0;alex@alex-Swift-SF316-51: /var/www/html[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html[00m$ touch index.pjp[K[Khp
+touch: невозможно выполнить touch для 'index.php': Отказано в доступе
+]0;alex@alex-Swift-SF316-51: /var/www/html[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html[00m$ touch index.php[1@s[1@u[1@d[1@o[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -ls
+итого 20
+4 drwxrwxr-x 18 alex alex 4096 мая  9 09:26 [0m[01;34mBranderPHPcourse[0m
+4 -rw-r--r--  1 root root   21 апр  4 15:06 index.html
+4 -rw-r--r--  1 root root  612 фев  5 13:02 _index.nginx-debian.html
+4 -rw-r--r--  1 root root  612 апр 14 16:09 index.nginx-debian.html
+4 drwxr-xr-x  2 root root 4096 мая 10 13:17 [01;34mtest[0m
+]0;alex@alex-Swift-SF316-51: /var/www/html[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html[00m$ chmod 777 test
+chmod: изменение прав доступа для 'test': Операция не позволена
+]0;alex@alex-Swift-SF316-51: /var/www/html[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html[00m$ chmod 777 test[1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;alex@alex-Swift-SF316-51: /var/www/html[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html[00m$ sudo chmod 777 test[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pls -ls
+итого 20
+4 drwxrwxr-x 18 alex alex 4096 мая  9 09:26 [0m[01;34mBranderPHPcourse[0m
+4 -rw-r--r--  1 root root   21 апр  4 15:06 index.html
+4 -rw-r--r--  1 root root  612 фев  5 13:02 _index.nginx-debian.html
+4 -rw-r--r--  1 root root  612 апр 14 16:09 index.nginx-debian.html
+4 drwxrwxrwx  2 root root 4096 мая 10 13:17 [34;42mtest[0m
+]0;alex@alex-Swift-SF316-51: /var/www/html[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html[00m$ cd test
+]0;alex@alex-Swift-SF316-51: /var/www/html/test[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test[00m$ touch index.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/test[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test[00m$ mkdir api
+]0;alex@alex-Swift-SF316-51: /var/www/html/test[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test[00m$ кь[K[Krm index.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/test[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test[00m$ cd api
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$ mkdir config objects product category shared
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$  touch config/core.php cor[Knfig/database.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$ touch objects/product.php objects/category.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$ tou[K[K[Kcd product/
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api/product[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api/product[00m$ touch create.php delete.php read.php read_paging.pg p[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kph p read_one.php update.php search.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api/product[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api/product[00m$ cd ..[K[K[K[K[Ktouch ../shared/utilities.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api/product[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api/product[00m$ cd ..
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$ php config/database.php 
+]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$ php config/database.php 
+Connection successful]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$ [K]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$ [K]0;alex@alex-Swift-SF316-51: /var/www/html/test/api[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/test/api[00m$ св[K[Kcd ../Bra[K[K[K../BranderPHPcourse/lesson17
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ toucj[Kh file.txt
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1
+Старое имя файла: 
+
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+Старое имя файла: file.txt
+
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+Старое имя файла: file.txt
+file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt php.php[C[C[C
+Старое имя файла: file.txt
+file..php
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt .php[1Pphp
+Старое имя файла: file.txt
+file.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt php
+Старое имя файла: file.txt
+file.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt php[K[K[K[K[K[K[Kphp txt
+Старое имя файла: file.php
+Новое имя файла: file.txt
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ cd ..
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ git add .
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ git commit -m "Исправлен файл task1 [K: add .[K\[K[K[K[K[K[K[K[K[K[Kсв[K[Kcd lesson17
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ cd lesson17[2Pgit add .[4Pcd .../task1 file.php txt[K[K[K[K[K[K[K[K[K[K[K[K
+./task1: строка 10: неожиданный конец файла во время поиска «"»
+./task1: строка 11: синтаксическая ошибка: неожиданный конец файла
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 
+./task1: строка 2: ==null: команда не найдена
+Старое имя файла: 
+mv: не удалось выполнить stat для '': Нет такого файла или каталога
+Новое имя файла: .
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 
+./task1: строка 2: ==0: команда не найдена
+Старое имя файла: 
+mv: не удалось выполнить stat для '': Нет такого файла или каталога
+Новое имя файла: .
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 
+Не введено имя файла
+Не введено расширение для файла
+Старое имя файла: 
+mv: не удалось выполнить stat для '': Нет такого файла или каталога
+Новое имя файла: .
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 
+Не введено имя файла
+Не введено расширение для файла
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 cd lesson17[3P./task1 cd lesson17[2Pgit add .[4Pcd .../task1 file.php txt[K[K[K
+./task1: строка 2: [: отсутствует символ «]»
+./task1: строка 7: [: отсутствует символ «]»
+Старое имя файла: file.php
+mv: не удалось выполнить stat для 'file.php': Нет такого файла или каталога
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.php [K[K[K[K[K[K[K[K[K[K
+Не введено имя файла
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+./task1: строка 2: [: отсутствует символ «]»
+./task1: строка 8: [: отсутствует символ «]»
+Старое имя файла: file.txt
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+./task1: строка 2: [: отсутствует символ «]»
+./task1: строка 8: [: отсутствует символ «]»
+Старое имя файла: file.txt
+mv: не удалось выполнить stat для 'file.txt': Нет такого файла или каталога
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+./task1: строка 2: [: отсутствует символ «]»
+Старое имя файла: file.txt
+mv: не удалось выполнить stat для 'file.txt': Нет такого файла или каталога
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+./task1: строка 2: -f: команда не найдена
+Старое имя файла: file.txt
+mv: не удалось выполнить stat для 'file.txt': Нет такого файла или каталога
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/wwwx-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.php [K[K[K[K[K[K[K[K[K[K
+Не введено имя файла
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+./task1: строка 2: [: отсутствует символ «]»
+./task1: строка 8: [: отсутствует символ «]»
+Старое имя файла: file.txt
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+./task1: строка 2: [: отсутствует символ «]»
+./task1: строка 8: [: отсутствует символ «]»
+Старое имя файла: file.txt
+mv: не удалось выполнить stat для 'file.txt': Нет такого файла или каталога
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+./task1: строка 2: [: отсутствует символ «]»
+Старое имя файла: file.txt
+mv: не удалось выполнить stat для 'file.txt': Нет такого файла или каталога
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+./task1: строка 2: -f: команда не найдена
+Старое имя файла: file.txt
+mv: не удалось выполнить stat для 'file.txt': Нет такого файла или каталога
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt
+Старое имя файла: file.txt
+mv: не удалось выполнить stat для 'file.txt': Нет такого файла или каталога
+Новое имя файла: file.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file.txt[1P.txt[1P.txt[1P.txt[1P.txtt.txte.txtx.txtt.txt[C[C[C[C[K[K[K[K
+Старое имя файла: text
+mv: не удалось выполнить stat для 'text': Нет такого файла или каталога
+Новое имя файла: text.
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 text[K[K[K[K[K
+Не введено имя файла
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1file file[C[C[C[C.
+Не введено расширение файла
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file. php
+Старое имя файла: file.
+Новое имя файла: file.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task1 file. php[C[C[C[C[C[K[K[K[K[K[K[K[K[Ktext .txt php
+Старое имя файла: text
+mv: не удалось выполнить stat для 'text': Нет такого файла или каталога
+Новое имя файла: text..txt
+]0;alex@alex-Swift-SF31

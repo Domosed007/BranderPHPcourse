@@ -1,9 +1,20 @@
 #!/bin/bash
+if [ -z $1 ]
+then 
+echo "Не введено имя файла"
+exit
+fi
 
-echo "Старое имя файла: "$0
+if [ -z $2 ]
+then 
+echo "Не введено расширение файла"
+exit
+fi
 
-nameFile=$1$2
+echo "Старое имя файла: "$1
 
-mv $0 $nameFile
+newNameFile=${1%.*}.$2
 
-echo $nameFile
+mv  "$1" "$newNameFile"
+
+echo "Новое имя файла: "$newNameFile
