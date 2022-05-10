@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Старое имя файла: "$0
+
+nameFile=$1$2
+
+mv $0 $nameFile
+
+echo $nameFile

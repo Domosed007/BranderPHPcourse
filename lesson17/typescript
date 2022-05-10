@@ -1,0 +1,120 @@
+Script started on 2022-05-09 13:45:44+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="108" LINES="11"]
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ls
+[0m[01;32mscript[0m  typescript
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ cd ..
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ ls
+[0m[01;34mlesson10[0m  [01;34mlesson12[0m  [01;34mlesson13hw10[0m  [01;34mlesson15[0m  [01;34mlesson3[0m  [01;34mlesson5[0m  [01;34mlesson7[0m          [01;34mlesson9[0m
+[01;34mlesson11[0m  [01;34mlesson13[0m  [01;34mlesson14[0m      [01;34mlesson17[0m  [01;34mlesson4[0m  [01;34mlesson6[0m  [01;34mlesson8Practice[0m
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ ls -X
+[0m[01;34mlesson10[0m  [01;34mlesson12[0m  [01;34mlesson13hw10[0m  [01;34mlesson15[0m  [01;34mlesson3[0m  [01;34mlesson5[0m  [01;34mlesson7[0m          [01;34mlesson9[0m
+[01;34mlesson11[0m  [01;34mlesson13[0m  [01;34mlesson14[0m      [01;34mlesson17[0m  [01;34mlesson4[0m  [01;34mlesson6[0m  [01;34mlesson8Practice[0m
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ ls -ls
+итого 60
+4 drwxrwxr-x 4 alex alex 4096 апр 15 13:28 [0m[01;34mlesson10[0m
+4 drwxrwxr-x 2 alex alex 4096 апр 15 23:18 [01;34mlesson11[0m
+4 drwxrwxr-x 4 alex alex 4096 апр 21 11:55 [01;34mlesson12[0m
+4 drwxrwxr-x 3 alex alex 4096 апр 24 15:39 [01;34mlesson13[0m
+4 drwxrwxr-x 6 alex alex 4096 апр 22 21:24 [01;34mlesson13hw10[0m
+4 drwxrwxr-x 4 alex alex 4096 апр 24 15:39 [01;34mlesson14[0m
+4 drwxrwxr-x 5 alex alex 4096 мая  8 14:38 [01;34mlesson15[0m
+4 drwxrwxr-x 2 alex alex 4096 мая  9 09:29 [01;34mlesson17[0m
+4 drwxrwxr-x 2 alex alex 4096 фев 16 18:50 [01;34mlesson3[0m
+4 drwxrwxr-x 2 alex alex 4096 фев 16 18:50 [01;34mlesson4[0m
+4 drwxrwxr-x 2 alex alex 4096 фев 23 18:47 [01;34mlesson5[0m
+4 drwxrwxr-x 2 alex alex 4096 фев 23 18:47 [01;34mlesson6[0m
+4 drwxrwxr-x 4 alex alex 4096 апр  4 20:51 [01;34mlesson7[0m
+4 drwxrwxr-x 2 alex alex 4096 мар 30 20:15 [01;34mlesson8Practice[0m
+4 drwxrwxr-x 3 alex alex 4096 апр 15 13:28 [01;34mlesson9[0m
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ find script
+find: ‘script’: Нет такого файла или каталога
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ lesson1
+lesson1: команда не найдена
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ lesson1find script[K[K[K[K[K[Klesson1
+find: ‘lesson1’: Нет такого файла или каталога
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ find lesson1[K5
+lesson5
+lesson5/Task1.php
+lesson5/task.php
+lesson5/Task4.php
+lesson5/Task2.php
+lesson5/Task5.php
+lesson5/Task3.php
+lesson5/Task6.php
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ grep lesson17/[Celesson17/clesson17/hlesson17/olesson17/ lesson17/[C[C[C[C[C[C[C[C[Cscript
+[01;31m[Kecho[m[K $0
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$ uname
+Linux
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse[00m$  [Kcd lesson17
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script
+./script
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script
+Старое имя файла: ./script
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script
+Старое имя файла: ./script
+/var/www/html/BranderPHPcourse/lesson17
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script
+Старое имя файла: ../script
+/var/www/html/BranderPHPcourse/lesson17
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script
+Старое имя файла: ./script
+/var/www/html/BranderPHPcourse/lesson17
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script
+Старое имя файла: ./script
+./script: строка 4: =+: команда не найдена
+
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script file .twt[K[Kxt
+Старое имя файла: ./script
+./script: строка 4: =file+.txt: команда не найдена
+
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script file .txt
+Старое имя файла: ./script
+./script: строка 4: =file.txt: команда не найдена
+
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ [K]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ [K]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script file .txt
+Старое имя файла: ./script
+./script: строка 4: =file.txt: команда не найдена
+
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script file .txt
+Старое имя файла: ./script
+file.txt
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./script file .txt
+Старое имя файла: ./script
+file.txt
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ touch task2
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ mvtas[K[K[K task1.txt task1
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2
+bash: ./task2: Отказано в доступе
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ls -ls
+итого 16
+4 -rwxrwxr-x 1 alex alex  102 мая  9 22:39 [0m[01;32mtask1[0m
+4 -rw-rw-r-- 1 alex alex   31 мая  9 22:47 task2
+8 -rw-rw-r-- 1 alex alex 8192 мая  9 22:47 typescript
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ chmod 777 task2
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ chmod 777 task2[9Pls -ls
+итого 16
+4 -rwxrwxr-x 1 alex alex  102 мая  9 22:39 [0m[01;32mtask1[0m
+4 -rwxrwxrwx 1 alex alex   31 мая  9 22:47 [01;32mtask2[0m
+8 -rw-rw-r-- 1 alex alex 8192 мая  9 22:47 typescript
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ls -lschmod 777 task2[9Pls -ls./task2
+touch: пропущен операнд, задающий файл
+По команде «touch --help» можно получить дополнительную информацию.
+./task2: строка 5: $1: неоднозначное перенаправление
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2
+touch: невозможно выполнить touch для '': Нет такого файла или каталога
+./task2: строка 5: $1: неоднозначное перенаправление
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2
+touch: пропущен операнд, задающий файл
+По команде «touch --help» можно получить дополнительную информацию.
+./task2: строка 6: $1: неоднозначное перенаправление
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2 file.txt Some text
+./task2: строка 6: Some: команда не найдена
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2 file.txt Some text[C[C[1@"[1P[C[1@ [1@'[1P[C[C[C[C[C[C[C[C[C'
+./task2: строка 6: Some: команда не найдена
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ rm file.txt
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ rm file.txt./task2 file.txt 'Some text'
+./task2: строка 6: Some: команда не найдена
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ [K]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ [K]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2 file.txt 'Some text'
+./task2: строка 6: Some: команда не найдена
+]0;alex@alex-Swift-SF316-51: /var/www/html/BranderPHPcourse/lesson17[01;32malex@alex-Swift-SF316-51[00m:[01;34m/var/www/html/BranderPHPcourse/lesson17[00m$ ./task2 file.txt 'Some text'
+./task2: строка 6: $2: команда не найдена
+]0;alex@alex-Swift-SF316-51: 
