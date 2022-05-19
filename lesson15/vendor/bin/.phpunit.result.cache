@@ -1,0 +1,1 @@
+{"version":1,"defects":{"PriceTest::testCreateFromString":3,"ProductTest::testGetPrice":3},"times":{"PriceTest::testCreateFromString":0.002,"ProductTest::testGetId":0.001,"ProductTest::testGetName":0,"ProductTest::testGetPrice":0.001,"ProductTest::testGetSeason":0,"ProductTest::testToArray":0}}

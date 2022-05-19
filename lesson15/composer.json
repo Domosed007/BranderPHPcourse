@@ -11,5 +11,7 @@
             "email": "a.v.smirnov1992@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }

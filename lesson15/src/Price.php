@@ -20,3 +20,4 @@ class Price
         return (string) $this->coins / 100;
     }
 }
+
