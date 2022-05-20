@@ -16,20 +16,20 @@ class Junior extends Employee
         $this->teamLead=$teamLead;
     }
 
-    public function resultWorkJunior(bool|int $signal)
+    public function resultWorkJunior(bool|int $signal):void
     {
         if($this->teamLead->setStateChange($signal)==true) $this->countLike++;
         elseif($this->teamLead->setStateChange($signal)==false) $this->countDislike++;        
     }
 
     //Возвращает количество выговоров
-    public function getCountDislike()
+    public function getCountDislike():int
     {
         return $this->countDislike;
     }
 
     //Возвращает количество поощрений
-    public function getCountLike()
+    public function getCountLike():int
     {
         return $this->countLike;
     }
